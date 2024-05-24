@@ -10,7 +10,7 @@ interface ILayoutProps {
 
 export default function Layout({ children }: ILayoutProps) {
   return (
-    <div className="flex min-h-screen flex-col ">
+    <div className="flex min-h-screen flex-col">
       <Header />
       <main className="flex-grow bg-base-100">{children}</main>
       <Footer />
